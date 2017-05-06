@@ -1,0 +1,30 @@
+{% extends '_layouts/base.nunjucks' %}
+
+{% block content %}
+<div class="site-wrapper">
+  <div class="site-wrapper-inner">
+    <div class="cover-container">
+      <div class="masthead clearfix">
+      </div>
+
+      <div class="inner cover">
+        <img src="images/photo.jpg" alt="picture of a beautiful black-haired mother">
+        <h1 class="cover-heading">monica rosado</h1>
+        <p class="lead">digital account supervisor 🌸 digital marketing lover 📱 social media expert</p>
+      </div>
+
+      <div class="mastfoot">
+        <div class="inner">
+          <ul>
+            <li><a href="mailto:hola@monicarosado.com">📧 me</a></li>
+            <li><a href="https://www.linkedin.com/in/monicarosado/" target="_blank" rel="noopener">#adlife</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+{% endblock %}
