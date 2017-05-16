@@ -1,22 +1,17 @@
-{# Custom Configuration #}
 {% block config %}
-  {# Setup site's base URL to match the "baseUrl" key within `package.json` #}
-  {# Otherwise default to relative pathing #}
   {% set baseUrl = config.baseUrl or './' %}
 {% endblock %}
-
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-
   <head>
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <title>monica rosado</title>
+    <title>monica rosado - digital account supervisor, digital marketing lover, and social media expert living in miami, fl</title>
     <meta name="description" content="digital account supervisor, digital marketing lover, and social media expert living in miami, fl">
     <meta property="og:title" content="monica rosado"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://monicarosado.com/"/>
-    <meta property="og:image" content="https://monicarosado.com/images/photo.jpg">
+    <meta property="og:image" content="https://monicarosado.com/images/profilepicture.jpg">
     <meta property="og:site_name" content="monicarosado.com"/>
     <meta property="og:description" content="digital account supervisor, digital marketing lover, and social media expert living in miami, fl"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -38,5 +33,19 @@
       ga('create', 'UA-41380748-1', 'auto');
       ga('send', 'pageview');
     </script>
+
+
+    <!--
+     ________  ________  ________  _____ ______   ___
+    |\   __  \|\   __  \|\   __  \|\   _ \  _   \|\  \
+    \ \  \|\ /\ \  \|\  \ \  \|\  \ \  \\\__\ \  \ \  \
+     \ \   __  \ \  \\\  \ \  \\\  \ \  \\|__| \  \ \  \
+      \ \  \|\  \ \  \\\  \ \  \\\  \ \  \    \ \  \ \__\
+       \ \_______\ \_______\ \_______\ \__\    \ \__\|__|
+        \|_______|\|_______|\|_______|\|__|     \|__|   ___
+                                                       |\__\
+                                                       \|__|
+    -->
+
   </body>
 </html>
