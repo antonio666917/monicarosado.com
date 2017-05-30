@@ -17,7 +17,7 @@
         <div class="inner">
           <ul>
             <li><a href="mailto:hi@monicarosado.com" onclick="ga('send', 'event', 'Outbound Link', 'click', 'Say hi (email)');">say hi</a></li>
-            <li><a href="https://www.linkedin.com/in/monicarosado/" target="_blank" rel="noopener" onclick="ga('send', 'event', 'Outbound Link', 'click', '#adlife (linkedin)');">#adlife</a></li>
+            <li><a href="https://www.linkedin.com/in/monicarosado/" target="_blank" rel="noopener" onclick="ga('send', 'event', 'Outbound Link', 'click', '#adlife (linkedin)');">linkedin</a></li>
             <li><a href="downloads/resume.pdf" download="resume-monicarosado-2017.pdf" onclick="ga('send', 'event', 'Resume Link', 'click', 'Download Resume');">resume</a></li>
           </ul>
         </div>
