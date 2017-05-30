@@ -22,6 +22,20 @@
   <body>
     {% block content %}{% endblock %}
 
+    <script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyChTi_1SGIBlak_W3KIJP8KeHlFIj_5csY",
+        authDomain: "monicarosado-v2.firebaseapp.com",
+        databaseURL: "https://monicarosado-v2.firebaseio.com",
+        projectId: "monicarosado-v2",
+        storageBucket: "monicarosado-v2.appspot.com",
+        messagingSenderId: "149678574363"
+      };
+      firebase.initializeApp(config);
+    </script>
+
     <script src="{{baseUrl}}scripts/main.js"></script>
     {% block scripts %}{% endblock %}
 
